@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Intro Elections – Candidate Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="bg-blue-900 text-white shadow relative">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-bold" id="siteName">Intro Elections</a>
+      <nav class="hidden md:flex md:items-center md:space-x-6 text-lg font-medium">
+        <a href="index.html#about" class="hover:text-blue-300" data-translate="About">About</a>
+        <a href="index.html#process" class="hover:text-blue-300" data-translate="Process">Process</a>
+        <a href="index.html#roles" class="hover:text-blue-300" data-translate="Roles">Roles</a>
+        <a href="index.html#gallery" class="hover:text-blue-300" data-translate="Gallery">Gallery</a>
+        <a href="candidates.html" class="hover:text-blue-300 font-semibold" data-translate="Candidates">Candidates</a>
+      </nav>
+      <!-- Language Toggle -->
+      <button id="langToggle" class="ml-4 bg-yellow-400 text-black px-3 py-1 rounded-md font-semibold hover:bg-yellow-500 transition">తెలుగు</button>
+      <div class="md:hidden">
+        <button id="mobileToggle" aria-controls="mobileMenu" aria-expanded="false" aria-label="Open main menu" class="inline-flex items-center justify-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-white">
+          <svg id="iconOpen" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
+          </svg>
+          <svg id="iconClose" class="h-6 w-6 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative w-full aspect-video bg-center bg-cover flex items-center" style="background-image: url('https://media.assettype.com/theleaflet/import/wp-content/uploads/2024/04/Election-scaled.jpg');">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/70"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-6 py-12 text-center text-white">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-2" id="candidateName">Ramesh Kumar</h1>
+      <p class="text-xl md:text-2xl font-semibold text-yellow-300" id="candidateParty">Party: Village Unity</p>
+    </div>
+  </section>
+
+  <!-- PROFILE & DETAILS -->
+  <main class="py-16">
+    <div class="max-w-6xl mx-auto px-6 space-y-12">
+
+      <!-- Candidate Summary Box -->
+      <div class="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg flex flex-col md:flex-row md:gap-8 items-center hover:scale-105 transition-transform duration-300">
+        <div class="md:w-1/3 flex justify-center md:justify-start mb-6 md:mb-0">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ramesh Kumar" class="rounded-xl shadow-lg w-64 h-64 object-cover border-4 border-blue-300">
+        </div>
+        <div class="md:w-2/3 space-y-3">
+          <h2 class="text-3xl font-bold text-blue-900" id="candidateName2">Ramesh Kumar</h2>
+          <p class="text-blue-700 font-semibold text-lg" id="candidateParty2">Party: Village Unity</p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-gray-700">
+            <p><span class="font-semibold" data-translate="Age">Age:</span> <span id="candidateAge">45</span></p>
+            <p><span class="font-semibold" data-translate="Education">Education:</span> <span id="candidateEdu">B.A. Political Science</span></p>
+            <p><span class="font-semibold" data-translate="Experience">Experience:</span> <span id="candidateExp">15+ years</span></p>
+            <p><span class="font-semibold" data-translate="Location">Location:</span> <span id="candidateLoc">Village XYZ, District ABC</span></p>
+            <p><span class="font-semibold" data-translate="Contact">Contact:</span> <span id="candidateContact">+91-9876543210</span></p>
+            <p><span class="font-semibold" data-translate="Email">Email:</span> <span id="candidateEmail">ramesh.kumar@example.com</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- Biography -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1">
+          <div class="flex items-center mb-4">
+            <svg class="h-6 w-6 text-blue-600 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A9.969 9.969 0 0112 15a9.969 9.969 0 016.879 2.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <h3 class="text-xl font-semibold text-blue-900" data-translate="Biography">Biography</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed" id="candidateBio">
+            Ramesh Kumar has dedicated over 15 years to village governance and development. He has led initiatives for roads, sanitation, education, and healthcare programs. Known for his transparent leadership, he emphasizes equitable development for all citizens.
+          </p>
+        </div>
+
+        <!-- Manifesto -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1">
+          <div class="flex items-center mb-4">
+            <svg class="h-6 w-6 text-green-600 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m-6 4h6"/></svg>
+            <h3 class="text-xl font-semibold text-green-900" data-translate="Manifesto">Manifesto</h3>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 space-y-1" id="candidateManifesto">
+            <li>Ensure clean water supply and proper sanitation across the village.</li>
+            <li>Promote education and scholarships for underprivileged students.</li>
+            <li>Encourage sustainable agriculture and local employment.</li>
+            <li>Develop healthcare facilities and welfare for senior citizens.</li>
+            <li>Enhance digital infrastructure for better connectivity.</li>
+          </ul>
+        </div>
+
+        <!-- Achievements -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1">
+          <div class="flex items-center mb-4">
+            <svg class="h-6 w-6 text-yellow-600 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            <h3 class="text-xl font-semibold text-yellow-900" data-translate="Achievements">Achievements</h3>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 space-y-1" id="candidateAchievements">
+            <li>Constructed 5 new roads connecting remote areas.</li>
+            <li>Implemented village-wide sanitation program reducing water-borne diseases.</li>
+            <li>Organized annual scholarship programs for over 200 students.</li>
+            <li>Established health camps and vaccination drives.</li>
+            <li>Digitized village administrative records.</li>
+          </ul>
+        </div>
+
+        <!-- Awards -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1">
+          <div class="flex items-center mb-4">
+            <svg class="h-6 w-6 text-purple-600 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2l2.39 6.26L21 9l-4.88 3.81L17.78 21 12 17.77 6.22 21l1.66-8.19L3 9l6.61-.74L12 2z"/></svg>
+            <h3 class="text-xl font-semibold text-purple-900" data-translate="Awards & Recognition">Awards & Recognition</h3>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 space-y-1" id="candidateAwards">
+            <li>Best Village Leader Award 2022</li>
+            <li>Recognition for Sanitation Excellence 2021</li>
+            <li>Community Service Award 2020</li>
+          </ul>
+        </div>
+
+        <!-- IF ELECTED / VISION -->
+        <div class="bg-gradient-to-r from-indigo-50 to-indigo-100 p-6 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-1">
+          <div class="flex items-center mb-4">
+            <svg class="h-6 w-6 text-indigo-600 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-3-3v6m7-7l-4 4-4-4m-4 4l4-4 4 4"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-indigo-900" data-translate="If Elected">If Elected / Vision</h3>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 space-y-1" id="candidateVision">
+            <li>Improve road connectivity and infrastructure across all villages.</li>
+            <li>Ensure transparent management of village funds and resources.</li>
+            <li>Enhance healthcare, sanitation, and education facilities.</li>
+            <li>Implement sustainable development and employment initiatives.</li>
+            <li>Strengthen digital governance and citizen services.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Back Button -->
+      <div class="text-center mt-6">
+        <a href="candidates.html" class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md font-semibold shadow-lg transform hover:scale-105 transition duration-300" data-translate="Back to Candidates">
+          ← Back to Candidates
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-900 text-white text-center py-6 mt-10" id="footerText">
+    © 2025 Intro Elections
+  </footer>
+
+  <!-- LANGUAGE TRANSLATION SCRIPT -->
+  <script>
+    const englishTexts = {
+      siteName: "Intro Elections",
+      candidateName: "Ramesh Kumar",
+      candidateName2: "Ramesh Kumar",
+      candidateParty: "Party: Village Unity",
+      candidateParty2: "Party: Village Unity",
+      candidateAge: "45",
+      candidateEdu: "B.A. Political Science",
+      candidateExp: "15+ years",
+      candidateLoc: "Village XYZ, District ABC",
+      candidateContact: "+91-9876543210",
+      candidateEmail: "ramesh.kumar@example.com",
+      candidateBio: "Ramesh Kumar has dedicated over 15 years to village governance and development. He has led initiatives for roads, sanitation, education, and healthcare programs. Known for his transparent leadership, he emphasizes equitable development for all citizens.",
+      candidateManifesto: [
+        "Ensure clean water supply and proper sanitation across the village.",
+        "Promote education and scholarships for underprivileged students.",
+        "Encourage sustainable agriculture and local employment.",
+        "Develop healthcare facilities and welfare for senior citizens.",
+        "Enhance digital infrastructure for better connectivity."
+      ],
+      candidateAchievements: [
+        "Constructed 5 new roads connecting remote areas.",
+        "Implemented village-wide sanitation program reducing water-borne diseases.",
+        "Organized annual scholarship programs for over 200 students.",
+        "Established health camps and vaccination drives.",
+        "Digitized village administrative records."
+      ],
+      candidateAwards: [
+        "Best Village Leader Award 2022",
+        "Recognition for Sanitation Excellence 2021",
+        "Community Service Award 2020"
+      ],
+      candidateVision: [
+        "Improve road connectivity and infrastructure across all villages.",
+        "Ensure transparent management of village funds and resources.",
+        "Enhance healthcare, sanitation, and education facilities.",
+        "Implement sustainable development and employment initiatives.",
+        "Strengthen digital governance and citizen services."
+      ],
+      translateElements: {
+        "Age":"Age:",
+        "Education":"Education:",
+        "Experience":"Experience:",
+        "Location":"Location:",
+        "Contact":"Contact:",
+        "Email":"Email:",
+        "Biography":"Biography",
+        "Manifesto":"Manifesto",
+        "Achievements":"Achievements",
+        "Awards & Recognition":"Awards & Recognition",
+        "If Elected":"If Elected / Vision",
+        "Back to Candidates":"← Back to Candidates"
+      },
+      footerText: "© 2025 Intro Elections"
+    };
+
+    const teluguTexts = {
+      siteName: "ఇంట్రో ఎన్నికలు",
+      candidateName: "రమేష్ కుమార్",
+      candidateName2: "రమేష్ కుమార్",
+      candidateParty: "పార్టీ: విలేజ్ యూనిటీ",
+      candidateParty2: "పార్టీ: విలేజ్ యూనిటీ",
+      candidateAge: "45",
+      candidateEdu: "బీ.ఏ. పాలిటికల్ సైన్స్",
+      candidateExp: "15+ సంవత్సరాలు",
+      candidateLoc: "గ్రామం XYZ, జిల్లా ABC",
+      candidateContact: "+91-9876543210",
+      candidateEmail: "ramesh.kumar@example.com",
+      candidateBio: "రమేష్ కుమార్ గ్రామ పాలన మరియు అభివృద్ధి కోసం 15 సంవత్సరాలకు పైగా సేవ చేశారు. రోడ్లు, సానిటేషన్, విద్య మరియు ఆరోగ్య కార్యక్రమాలను ముందుండి నడిపారు. పారదర్శక నేతృత్వం ద్వారా సమాన అభివృద్ధిని ప్రోత్సహిస్తారు.",
+      candidateManifesto: [
+        "గ్రామంలో శుభ్రమైన నీటి సరఫరా మరియు సరైన సానిటేషన్ కల్పించండి.",
+        "వీరు విద్యార్థుల కోసం విద్య మరియు స్కాలర్షిప్‌లను ప్రోత్సహించండి.",
+        "సస్టైనబుల్ వ్యవసాయ మరియు స్థానిక ఉపాధిని ప్రోత్సహించండి.",
+        "ఆరోగ్య సౌకర్యాలు మరియు వృద్ధులకు సంక్షేమం అభివృద్ధి చేయండి.",
+        "మంచి కనెక్టివిటీ కోసం డిజిటల్ ఇన్ఫ్రాస్ట్రక్చర్ పెంపొందించండి."
+      ],
+      candidateAchievements: [
+        "అక్రమ ప్రాంతాలను కలుపుతున్న 5 కొత్త రోడ్లు నిర్మించబడ్డాయి.",
+        "గ్రామంలో సానిటేషన్ కార్యక్రమం నిర్వహించడం ద్వారా నీటి-జన్య వ్యాధులు తగ్గించబడ్డాయి.",
+        "200 మందికి పైగా విద్యార్థులకు వార్షిక స్కాలర్షిప్ ప్రోగ్రాములు నిర్వహించబడ్డాయి.",
+        "హెల్త్ క్యాంపులు మరియు టీకా డ్రైవ్స్ ఏర్పాటు చేయబడ్డాయి.",
+        "గ్రామ పరిపాలనా రికార్డులు డిజిటైజ్ చేయబడ్డాయి."
+      ],
+      candidateAwards: [
+        "బెస్ట్ విలేజ్ లీడర్ అవార్డు 2022",
+        "సానిటేషన్ ఎక్సలెన్స్ గుర్తింపు 2021",
+        "కమ్యూనిటీ సర్వీస్ అవార్డు 2020"
+      ],
+      candidateVision: [
+        "అన్ని గ్రామాలలో రోడ్ కనెక్టివిటీ మరియు ఇన్‌ఫ్రాస్ట్రక్చర్ మెరుగుపరచడం.",
+        "గ్రామ నిధులు మరియు వనరుల పారదర్శక నిర్వహణను నిర్ధారించడం.",
+        "ఆరోగ్య, సానిటేషన్ మరియు విద్యా సౌకర్యాలను మెరుగుపరచడం.",
+        "సస్టైనబుల్ అభివృద్ధి మరియు ఉపాధి కార్యక్రమాలను అమలు చేయడం.",
+        "డిజిటల్ గవర్నెన్స్ మరియు పౌర సేవలను బలపరచడం."
+      ],
+      translateElements: {
+        "Age":"వయసు:",
+        "Education":"విద్య:",
+        "Experience":"అనుభవం:",
+        "Location":"స్థానం:",
+        "Contact":"సంప్రదించండి:",
+        "Email":"ఇమెయిల్:",
+        "Biography":"జీవిత చరిత్ర",
+        "Manifesto":"మానిఫెస్టో",
+        "Achievements":"సాధనాలు",
+        "Awards & Recognition":"అవార్డులు & గుర్తింపు",
+        "If Elected":"ఎన్నికైతే / దృక్పథం",
+        "Back to Candidates":"← అభ్యర్థుల వైపు"
+      },
+      footerText: "© 2025 ఇంట్రో ఎన్నికలు"
+    };
+
+    let currentLang = "en";
+
+    document.getElementById("langToggle").addEventListener("click", ()=>{
+      currentLang = currentLang==="en" ? "te" : "en";
+      const texts = currentLang==="en"? englishTexts : teluguTexts;
+
+      // Update all elements
+      for(const key in texts){
+        if(document.getElementById(key)) document.getElementById(key).innerText = texts[key];
+      }
+
+      // Update section headers
+      document.querySelectorAll("[data-translate]").forEach(el=>{
+        const text = el.getAttribute("data-translate");
+        el.innerText = texts.translateElements[text];
+      });
+
+      // Update lists
+      const setList = (id, arr)=>{
+        const ul = document.getElementById(id);
+        ul.innerHTML = "";
+        arr.forEach(item=>{
+          const li = document.createElement("li");
+          li.textContent = item;
+          ul.appendChild(li);
+        });
+      };
+
+      setList("candidateManifesto", texts.candidateManifesto);
+      setList("candidateAchievements", texts.candidateAchievements);
+      setList("candidateAwards", texts.candidateAwards);
+      setList("candidateVision", texts.candidateVision);
+
+      // Update button label
+      document.getElementById("langToggle").innerText = currentLang==="en"?"తెలుగు":"English";
+    });
+  </script>
+
+</body>
+</html>
