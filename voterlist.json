@@ -1,0 +1,527 @@
+[
+  {
+    "Name": "DURGABHAVANINUNE",
+    "FathersName": "VENKATESWARARAONUNE",
+    "HouseNumber": "1",
+    "Age": 25,
+    "Gender": "Female",
+    "VoterID": "YAY1147123"
+  },
+  {
+    "Name": "NUKARAJUTUMMALA",
+    "FathersName": "BURAIAHTHUMMALA",
+    "HouseNumber": "1-1",
+    "Age": 49,
+    "Gender": "Male",
+    "VoterID": "YAY1356799"
+  },
+  {
+    "Name": "PAVANITUMMALA",
+    "FathersName": "NUKARAJUTUMMALA",
+    "HouseNumber": "1-1",
+    "Age": 25,
+    "Gender": "Female",
+    "VoterID": "YAY2058675"
+  },
+  {
+    "Name": "MOUNIKATUMMALA",
+    "FathersName": "NUKARMUTUMMALA",
+    "HouseNumber": "1-1",
+    "Age": 23,
+    "Gender": "Female",
+    "VoterID": "YAY2058683"
+  },
+  {
+    "Name": "SUNEFTHANUNE",
+    "HusbandsName": "SRINUNUNE",
+    "HouseNumber": "1-2/1",
+    "Age": 34,
+    "Gender": "Female",
+    "VoterID": "YAY2055317"
+  },
+  {
+    "Name": "SampathKumarKanukolanu",
+    "FathersName": "VenkataRamalaishna Kanukolanu",
+    "HouseNumber": "1-10",
+    "Age": 19,
+    "Gender": "Male",
+    "VoterID": "YAY2217610"
+  },
+  {
+    "Name": "SATYAVATHIGARAGA",
+    "HusbandsName": "KRISHNA",
+    "HouseNumber": "1-12",
+    "Age": 25,
+    "Gender": "Female",
+    "VoterID": "YAY1356823"
+  },
+  {
+    "Name": "NAGESWAFIARAOGAHAPATI",
+    "FathersName": "VENKATARAOGARAPATI",
+    "HouseNumber": "1-14",
+    "Age": 54,
+    "Gender": "Male",
+    "VoterID": "YAY0842519"
+  },
+  {
+    "Name": "VARALAKSHMIGARAPATI",
+    "HusbandsName": "NAGESWARARAO GARAPATI",
+    "HouseNumber": "1-14",
+    "Age": 49,
+    "Gender": "Female",
+    "VoterID": "YAY0842428"
+  }
+
+
+
+
+  
+  {
+    "Name": "SRINUGARAPATI",
+    "FathersName": "NAGESWARARAO GARAPATI",
+    "HouseNumber": "1-14",
+    "Age": 27,
+    "Gender": "Male",
+    "VoterID": "YAY0973412"
+  },
+  {
+    "Name": "ramayammasudikonda",
+    "HusbandsName": "POTHURAJU",
+    "HouseNumber": "1-24",
+    "Age": 68,
+    "Gender": "Female",
+    "VoterID": "YAY1368166"
+  },
+  {
+    "Name": "BHANUMATHIKHNUKOLANU",
+    "HusbandsName": "CHANDRARAO",
+    "HouseNumber": "1-24",
+    "Age": 63,
+    "Gender": "Female",
+    "VoterID": "YAY1383157"
+  },
+  {
+    "Name": "Satyanarayanasudikonda",
+    "FathersName": "POTHURAJU",
+    "HouseNumber": "1-24",
+    "Age": 47,
+    "Gender": "Male",
+    "VoterID": "YAY1368190"
+  },
+  {
+    "Name": "NAGAMANISUDIKONDA",
+    "HusbandsName": "SATHYANARAYANA",
+    "HouseNumber": "1-24",
+    "Age": 44,
+    "Gender": "Female",
+    "VoterID": "MRG4193025"
+  },
+  {
+    "Name": "RamakrishnaKanukolanu",
+    "FathersName": "CHANDRALA0",
+    "HouseNumber": "1-24",
+    "Age": 42,
+    "Gender": "Male",
+    "VoterID": "MF1G2504363"
+  },
+  {
+    "Name": "GANGARAJUTHUMMALA",
+    "FathersName": "BURAIAHTHUMMALA",
+    "HouseNumber": "1-20",
+    "Age": 47,
+    "Gender": "Male",
+    "VoterID": "YAV1356751"
+  },
+  {
+    "Name": "UdayPavanThummala",
+    "FathersName": "GangaRajuThummala",
+    "HouseNumber": "1-26",
+    "Age": 19,
+    "Gender": "Male",
+    "VoterID": "YAY2217628"
+  },
+  {
+    "Name": "Venkannnbabumekala",
+    "MothersName": "Matherdurga",
+    "HouseNumber": "1-27",
+    "Age": 26,
+    "Gender": "Male",
+    "VoterID": "YAY1270602"
+  }
+
+
+
+
+
+
+  {
+    "Name": "BHUVANESWARIMEKALA",
+    "HusbandsName": "VENKANNABABU",
+    "HouseNumber": "1-27",
+    "Age": 23,
+    "Gender": "Female",
+    "VoterID": "YAY2058055"
+  },
+  {
+    "Name": "VEERASWAMYRAYA",
+    "FathersName": "KRISHNAMURTHIRAYA",
+    "HouseNumber": "1-28",
+    "Age": 45,
+    "Gender": "Male",
+    "VoterID": "YAY0640541"
+  },
+  {
+    "Name": "PADMARAYA",
+    "HusbandsName": "VEEHASWAMYRAI",
+    "HouseNumber": "1-28",
+    "Age": 42,
+    "Gender": "Female",
+    "VoterID": "YAY0431353"
+  },
+  {
+    "Name": "VENKATANBSPMAHATHI KONDAVALASA",
+    "FathersName": "SRINUKONDAVALASA",
+    "HouseNumber": "2-129",
+    "Age": 18,
+    "Gender": "Female",
+    "VoterID": "YAY2058030"
+  },
+  {
+    "Name": "VENKATARATNAKUMARI BONDADA",
+    "HusbandsName": "VEERAVENKATA SATYANARAYANABONDADA",
+    "HouseNumber": "1-33",
+    "Age": 62,
+    "Gender": "Female",
+    "VoterID": "YAY2058089"
+  },
+  {
+    "Name": "SEEDULASRINIVAS",
+    "FathersName": "CHANDRARAO",
+    "HouseNumber": "1-33",
+    "Age": 31,
+    "Gender": "Male",
+    "VoterID": "YAY1286889"
+  },
+  {
+    "Name": "RamaseethaNakka",
+    "HusbandsName": "SURYANARAIN",
+    "HouseNumber": "1-34",
+    "Age": 59,
+    "Gender": "Female",
+    "VoterID": "MRG2504496"
+  },
+  {
+    "Name": "SuryanarayanaNakka",
+    "FathersName": "AMULU",
+    "HouseNumber": "1-34",
+    "Age": 50,
+    "Gender": "Male",
+    "VoterID": "MRG4191219"
+  },
+  {
+    "Name": "AmmirajuUppalapatl",
+    "FathersName": "Suranna",
+    "HouseNumber": "1-39",
+    "Age": 76,
+    "Gender": "Male",
+    "VoterID": "YAY1130368"
+  }
+
+
+  
+  {
+    "Name": "Nagaratnam Uppalapati",
+    "HusbandsName": "Ammiraiu",
+    "HouseNumber": "1-39",
+    "Age": 73,
+    "Gender": "Female",
+    "VoterID": "YAY1130517"
+  },
+  {
+    "Name": "LAKSHMANAHAOADABALA",
+    "FathersName": "SUFLANNA",
+    "HouseNumber": "1-41",
+    "Age": 73,
+    "Gender": "Male",
+    "VoterID": "YAY1368240"
+  },
+  {
+    "Name": "SATVAVATHIADAEALA",
+    "HusbandsName": "LAKSHMANARAO",
+    "HouseNumber": "1-41",
+    "Age": 26,
+    "Gender": "Female",
+    "VoterID": "YAY1368174"
+  }
+
+
+
+
+  
+  {
+    "Name": "AmmaiGaitum",
+    "HusbandsName": "THRIMURTHULU",
+    "HouseNumber": "1-44",
+    "Age": 58,
+    "Gender": "Female",
+    "VoterID": "YAY1368158"
+  },
+  {
+    "Name": "TrimunhuluGahum",
+    "FathersName": "TATABBAI",
+    "HouseNumber": "1-AA",
+    "Age": 18,
+    "Gender": "Male",
+    "VoterID": "YAY0247320"
+  },
+  {
+    "Name": "RamskrishnaAdabala",
+    "FathersName": "DHARMARAJU",
+    "HouseNumber": "1-51",
+    "Age": 49,
+    "Gender": "Male",
+    "VoterID": "MRG4191284"
+  },
+  {
+    "Name": "DURGAADABALA",
+    "HusbandsName": "RAMAKRISHAN",
+    "HouseNumber": "1-51",
+    "Age": 47,
+    "Gender": "Female",
+    "VoterID": "MRG2504983"
+  },
+  {
+    "Name": "lovarajuAdabala",
+    "FathersName": "FIAMAKIRSHNAADABML",
+    "HouseNumber": "1-51",
+    "Age": 27,
+    "Gender": "Male",
+    "VoterID": "YAY1261262"
+  },
+  {
+    "Name": "RAMBABUPALIVELA",
+    "FathersName": "KRISHANAMURTHY PALNELA",
+    "HouseNumber": "1-52",
+    "Age": 51,
+    "Gender": "Male",
+    "VoterID": "YAY1368224"
+  },
+  {
+    "Name": "GANGABHAVANIPALIVELA",
+    "HusbandsName": "RAMBABU",
+    "HouseNumber": "1-52",
+    "Age": 48,
+    "Gender": "Female",
+    "VoterID": "YAY1368133"
+  },
+  {
+    "Name": "Lakshmi Illa",
+    "HusbandsName": "DURGAYYAEEALLA",
+    "HouseNumber": "1-53",
+    "Age": 43,
+    "Gender": "Female",
+    "VoterID": "YAY0587451"
+  },
+  {
+    "Name": "VENKANNABABUILLA",
+    "FathersName": "DURGAYYAILLA",
+    "HouseNumber": "1-53",
+    "Age": 25,
+    "Gender": "Male",
+    "VoterID": "YAY2058162"
+  }
+
+
+  
+  {
+    "Name": "VEEHASATYANARAYANR ADABALA",
+    "FathersName": "SOMESHWARRAO",
+    "HouseNumber": "1-54",
+    "Age": 46,
+    "Gender": "Male",
+    "VoterID": "YAY1383165"
+  },
+  {
+    "Name": "VARALAKSHMIJAJULA",
+    "HusbandsName": "VENKATESWARARAO JAJULA",
+    "HouseNumber": "1-55",
+    "Age": 30,
+    "Gender": "Female",
+    "VoterID": "YAY2054450"
+  },
+  {
+    "Name": "MANGATULSIKAKARLA",
+    "HusbandsName": "RAMACHANDRARAO",
+    "HouseNumber": "1-60",
+    "Age": 63,
+    "Gender": "Female",
+    "VoterID": "YAY1368067"
+  },
+  {
+    "Name": "RAMACHANDRARAOKAKARLA",
+    "FathersName": "VENKATRAJU",
+    "HouseNumber": "1-60",
+    "Age": 54,
+    "Gender": "Male",
+    "VoterID": "YAY1368083"
+  },
+  {
+    "Name": "SriruvasKakarla",
+    "FathersName": "FIAMACHANDRARAO",
+    "HouseNumber": "1-60",
+    "Age": 43,
+    "Gender": "Male",
+    "VoterID": "YAV0340802"
+  },
+  {
+    "Name": "ChilakammaKaanukolanu",
+    "HusbandsName": "Narayensmurlhy",
+    "HouseNumber": "1-67",
+    "Age": 73,
+    "Gender": "Female",
+    "VoterID": "YAY1383108"
+  },
+  {
+    "Name": "VEEFIAVENKATA SATYANARAYANAKANUKOLANU",
+    "FathersName": "Saniraiu",
+    "HouseNumber": "1-68",
+    "Age": 42,
+    "Gender": "Male",
+    "VoterID": "MRG2504124"
+  },
+  {
+    "Name": "DmgaraoKanuKolanu",
+    "FathersName": "Satllralu",
+    "HouseNumber": "1-68",
+    "Age": 40,
+    "Gender": "Male",
+    "VoterID": "MRG2503654"
+  },
+  {
+    "Name": "REEDHARANIKANUKOLANU",
+    "FathersName": "VEERAVENKATSATYANARAYANA KANUKOLANU",
+    "HouseNumber": "1-68",
+    "Age": 37,
+    "Gender": "Female",
+    "VoterID": "YAY0401729"
+  }
+
+
+
+
+  
+  {
+    "Name": "RAMAKRISHNAVENIKANUKOLANU",
+    "HusbandsName": "DURGARAD KANUKOLANU",
+    "HouseNumber": "1-68",
+    "Age": 34,
+    "Gender": "Female",
+    "VoterID": "YAY0968818"
+  },
+  {
+    "Name": "VenkatraoKaanukolana",
+    "FathersName": "ENKANNA",
+    "HouseNumber": "1-69",
+    "Age": 69,
+    "Gender": "Male",
+    "VoterID": "YAY1383124"
+  },
+  {
+    "Name": "SusaiaKaanukolana",
+    "HusbandsName": "CHINAVENKATAFIAO",
+    "HouseNumber": "1-69",
+    "Age": 59,
+    "Gender": "Female",
+    "VoterID": "YAY1383116"
+  },
+  {
+    "Name": "PratapChowdaryMarni",
+    "Others": "VISHNUMURTHY",
+    "HouseNumber": "1-71",
+    "Age": 78,
+    "Gender": "Male",
+    "VoterID": "YAY1383223"
+  },
+  {
+    "Name": "LAKSHMIMARNI",
+    "HusbandsName": "PRATAPCHAUDARI",
+    "HouseNumber": "1-71",
+    "Age": 27,
+    "Gender": "Female",
+    "VoterID": "YAY1383215"
+  },
+  {
+    "Name": "SrinivasuMari",
+    "FathersName": "PRATAPACHAUDARI",
+    "HouseNumber": "1-71",
+    "Age": 47,
+    "Gender": "Male",
+    "VoterID": "MRG4191524"
+  },
+  {
+    "Name": "NavinaMami",
+    "FathersName": "SRINIVASMARNI",
+    "HouseNumber": "1-71",
+    "Age": 39,
+    "Gender": "Female",
+    "VoterID": "YAV0366393"
+  },
+  {
+    "Name": "VeersnaveenYALLA",
+    "FathersName": "PANDURAJUYALLA",
+    "HouseNumber": "1-74",
+    "Age": 27,
+    "Gender": "Male",
+    "VoterID": "YAY0989079"
+  },
+  {
+    "Name": "SURYARAOKAANUKOIANA",
+    "FathersName": "CHINAVENKAIAH",
+    "HouseNumber": "1-75",
+    "Age": 58,
+    "Gender": "Male",
+    "VoterID": "YAY1363181"
+  }
+
+
+
+  
+  {
+    "Name": "RAMATULISIKAANUKOLAN",
+    "HusbandsName": "SURYARAVU",
+    "HouseNumber": "1-75",
+    "Age": 53,
+    "Gender": "Female",
+    "VoterID": "YAY1383173"
+  },
+  {
+    "Name": "SRINIVASKANUKOLANU",
+    "FathersName": "SURYARAOKANUKOLANU",
+    "HouseNumber": "1-75",
+    "Age": 39,
+    "Gender": "Male",
+    "VoterID": "YAY0137745"
+  },
+  {
+    "Name": "SNDHVARATNAMKANUKOLANU",
+    "HusbandsName": "SRINNASKALAKOLANU",
+    "HouseNumber": "1-75",
+    "Age": 33,
+    "Gender": "Female",
+    "VoterID": "YAV0640533"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
