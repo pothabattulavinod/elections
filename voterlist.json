@@ -509,8 +509,347 @@
     "Age": 33,
     "Gender": "Female",
     "VoterID": "YAV0640533"
+  },
+
+
+  {
+    "Name": "VASANTHALAKSHMI ADAHALA",
+    "FathersName": "SURIBABU ADABALA",
+    "HouseNumber": "1-85",
+    "Age": 20,
+    "Gender": "Female",
+    "VoterID": "YAY2058121"
+  },
+  {
+    "Name": "MAHESWARI JYOTHI SURAPUREDDY",
+    "FathersName": "GANGAIAH SURAPUREDDY",
+    "HouseNumber": "1-85",
+    "Age": 20,
+    "Gender": "Female",
+    "VoterID": "YAY2058113"
+  },
+  {
+    "Name": "LAKSHMANA PATHVELA",
+    "FathersName": "KRISHANAMURTHY PALNELA",
+    "HouseNumber": "1-91",
+    "Age": 51,
+    "Gender": "Male",
+    "VoterID": "YAY1385392"
+  },
+  {
+    "Name": "VIMALA RAMA LAKSHMI PALIVELA",
+    "HusbandsName": "Lakshmana Rao",
+    "HouseNumber": "1-91",
+    "Age": 48,
+    "Gender": "Female",
+    "VoterID": "MRG2504314"
+  },
+  {
+    "Name": "DEVIKA NANDINI PAVVELA",
+    "FathersName": "LAKSHMAN PAVVELA",
+    "HouseNumber": "1-91",
+    "Age": 29,
+    "Gender": "Female",
+    "VoterID": "YAY0968834"
+  },
+  {
+    "Name": "LAKSHMI PEDAGADA",
+    "HusbandsName": "VENKATESHWARLU",
+    "HouseNumber": "1-93",
+    "Age": 73,
+    "Gender": "Female",
+    "VoterID": "YAY1383231"
+  },
+  {
+    "Name": "BINDHU MADHURI MANDARAPU",
+    "HusbandsName": "RAMAKANTH MANDARAPU",
+    "HouseNumber": "1-116",
+    "Age": 32,
+    "Gender": "Female",
+    "VoterID": "YAY2061026"
+  },
+  {
+    "Name": "Madhuri Venkatesa Adabala",
+    "FathersName": "Venkatesulu Adabala",
+    "HouseNumber": "1-120",
+    "Age": 19,
+    "Gender": "Female",
+    "VoterID": "YAY2205292"
+  },
+  {
+    "Name": "Ganababu Tatikonda",
+    "FathersName": "Sai Kalyan Sreyan",
+    "HouseNumber": "1-122/3",
+    "Age": 40,
+    "Gender": "Male",
+    "VoterID": "MRG2503886"
+  },
+
+  
+  {
+    "Name": "MAHALAKSHMI KUNDURI",
+    "HusbandsName": "VEERABABU KUNDURI",
+    "HouseNumber": "1-123",
+    "Age": 35,
+    "Gender": "Female",
+    "VoterID": "YAY0431577"
+  },
+  {
+    "Name": "SAI KRISHNA PENUMALLA",
+    "FathersName": "VENKANNA PENUMALLA",
+    "HouseNumber": "1-167",
+    "Age": 27,
+    "Gender": "Male",
+    "VoterID": "YAY0973479"
+  },
+  {
+    "Name": "ANITHA KRANTHI PENUMALLA",
+    "HusbandsName": "SAI KRISHNA PENUMALLA",
+    "HouseNumber": "1-167",
+    "Age": 21,
+    "Gender": "Female",
+    "VoterID": "YAY2058691"
+  },
+  {
+    "Name": "ANANTHA LAKSHMI KOTHAPALLI",
+    "HusbandsName": "VENKATESHWARLU",
+    "HouseNumber": "1-169/1",
+    "Age": 51,
+    "Gender": "Female",
+    "VoterID": "YAY1368141"
+  },
+  {
+    "Name": "VEERA GANESH KOTHAPALLI",
+    "FathersName": "VENKATA RAO KOTHAPALLI",
+    "HouseNumber": "1-169/1",
+    "Age": 44,
+    "Gender": "Male",
+    "VoterID": "YAV0547760"
+  },
+  {
+    "Name": "SWATHA ADABALA",
+    "HusbandsName": "VEELABAHU S. ADABALA",
+    "HouseNumber": "1-236",
+    "Age": 28,
+    "Gender": "Female",
+    "VoterID": "YAY1239474"
+  },
+  {
+    "Name": "KARANAM SATYAVAHANA PRASAD",
+    "FathersName": "VENKATA RAMANA",
+    "HouseNumber": "2-34",
+    "Age": 25,
+    "Gender": "Male",
+    "VoterID": "YAY1286939"
+  },
+  {
+    "Name": "VEERABABU KUNCHE",
+    "FathersName": "VENKATA RAO KUNCHE",
+    "HouseNumber": "2-218",
+    "Age": 28,
+    "Gender": "Male",
+    "VoterID": "YAY1261445"
+  },
+  {
+    "Name": "MADHAVI GARAGA",
+    "HusbandsName": "SUBRAHMANYAM GARAGA",
+    "HouseNumber": "4",
+    "Age": 34,
+    "Gender": "Female",
+    "VoterID": "YAY0678658"
+  },
+
+
+  
+  {
+    "Name": "SUBRAHMANYAM GARAGA",
+    "FathersName": "KRISHNA GARAGA",
+    "HouseNumber": "4",
+    "Age": 32,
+    "Gender": "Male",
+    "VoterID": "YAY0547810"
+  },
+  {
+    "Name": "DEVI NUNE",
+    "FathersName": "SUBBARAO NUNE",
+    "HouseNumber": "4-1",
+    "Age": 31,
+    "Gender": "Female",
+    "VoterID": "YAY0678252"
+  },
+  {
+    "Name": "BURAIAH THUMMALA",
+    "FathersName": "GANGARAJU",
+    "HouseNumber": "4-1/1",
+    "Age": 68,
+    "Gender": "Male",
+    "VoterID": "YAY1356815"
+  },
+  {
+    "Name": "SURYANARAYANA NOONE",
+    "FathersName": "AMULU",
+    "HouseNumber": "4-1/1",
+    "Age": 63,
+    "Gender": "Male",
+    "VoterID": "YAY1356807"
+  },
+  {
+    "Name": "AMMANI NOONE",
+    "HusbandsName": "SURYANARAYANA",
+    "HouseNumber": "4-1/1",
+    "Age": 25,
+    "Gender": "Female",
+    "VoterID": "YAY1356765"
+  },
+  {
+    "Name": "SRINU NOONE",
+    "FathersName": "SURYANARAIN",
+    "HouseNumber": "4-1/1",
+    "Age": 39,
+    "Gender": "Male",
+    "VoterID": "YAY0247163"
+  },
+  {
+    "Name": "PRAKASHAM KUNDURI",
+    "FathersName": "CHITTIAH",
+    "HouseNumber": "4-1/1A",
+    "Age": 58,
+    "Gender": "Male",
+    "VoterID": "YAY1356849"
+  },
+  {
+    "Name": "THUMMALA GANGABHAVANI",
+    "HusbandsName": "NICKARSIU",
+    "HouseNumber": "4-1/2",
+    "Age": 43,
+    "Gender": "Female",
+    "VoterID": "MRG2505477"
+  },
+  {
+    "Name": "NUDE SURYA PRAKASAM",
+    "FathersName": "GEDDAIAH NOONE",
+    "HouseNumber": "4-1B",
+    "Age": 47,
+    "Gender": "Male",
+    "VoterID": "YAY1353556"
+  },
+  
+  {
+    "Name": "PARVATHI NUNE",
+    "HusbandsName": "SURYA PRAKASH NUNE",
+    "HouseNumber": "4-1B",
+    "Age": 31,
+    "Gender": "Female",
+    "VoterID": "MRG2505113"
+  },
+  {
+    "Name": "NUNE AMMANA",
+    "HusbandsName": "GEDDAIAH",
+    "HouseNumber": "4-1/B",
+    "Age": 73,
+    "Gender": "Female",
+    "VoterID": "YAY1353549"
+  },
+  {
+    "Name": "NUNE VENKANNA",
+    "FathersName": "GEDDAIAH NOONE",
+    "HouseNumber": "4-1/B",
+    "Age": 51,
+    "Gender": "Male",
+    "VoterID": "YAY1353564"
+  },
+
+
+
+  
+  {
+    "Name": "SSTYAVAHINONE",
+    "HusbandsName": "ENKANNA",
+    "HouseNumber": "4-1/B",
+    "Age": 46,
+    "Gender": "Female",
+    "VoterID": "MRG2505121"
+  },
+  {
+    "Name": "Z GQ PALAK NSH NEYS DEV NONE",
+    "FathersName": "VENKANNAN NUS",
+    "HouseNumber": "4-1/B",
+    "Age": 27,
+    "Gender": "Male",
+    "VoterID": "YAY1111723"
+  },
+  {
+    "Name": "SURYA HAVU ADUSUMILLI",
+    "FathersName": "RATAIAH",
+    "HouseNumber": "4-2",
+    "Age": 42,
+    "Gender": "Male",
+    "VoterID": "YAY1356856"
+  },
+
+
+  {
+    "Name": "KRISHNA VENL ADUSUMILLI",
+    "HusbandsName": "SURYARAVU",
+    "HouseNumber": "4-2",
+    "Age": 57,
+    "Gender": "Female",
+    "VoterID": "MRG2504462"
+  },
+  {
+    "Name": "RAMAKRISHNA ADUSUMILLI",
+    "FathersName": "SURIYAR",
+    "HouseNumber": "4-2",
+    "Age": 41,
+    "Gender": "Male",
+    "VoterID": "YAY0243758"
+  },
+  {
+    "Name": "VEERABABU ADUSUMILLI",
+    "FathersName": "SURYARAVU",
+    "HouseNumber": "4-2",
+    "Age": 39,
+    "Gender": "Male",
+    "VoterID": "MRG2504231"
+  },
+
+
+
+
+  {
+    "Name": "LAXMI GIRIJA ADUSUMILLI",
+    "HusbandsName": "VEERA FLAJU ADUSUMILLI",
+    "HouseNumber": "4-2",
+    "Age": 36,
+    "Gender": "Female",
+    "VoterID": "YAY0498980"
+  },
+  {
+    "Name": "OMKAR AMADUSUMILLI",
+    "HusbandsName": "VENKATA RAMAKRISHNA ADUSUMILLI",
+    "HouseNumber": "4-2",
+    "Age": 33,
+    "Gender": "Female",
+    "VoterID": "YAY0613233"
+  },
+  {
+    "Name": "VEERS LAKSHMI TATAPUDI",
+    "HusbandsName": "SNAFU TATAPUDI",
+    "HouseNumber": "4-3/A",
+    "Age": 21,
+    "Gender": "Female",
+    "VoterID": "YAY2166312"
+  },
+  {
+    "Name": "VEEHA VENKATA SURYA KUMAR GEDDAM",
+    "FathersName": "VEERABABU GEDDAM",
+    "HouseNumber": "4-4",
+    "Age": 20,
+    "Gender": "Male",
+    "VoterID": "YAY2019602"
   }
 
+  
 
 
 
@@ -525,4 +864,5 @@
 
 
 ]
+
 
