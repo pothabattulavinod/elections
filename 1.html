@@ -154,7 +154,7 @@ window.addEventListener('resize',()=>{if(window.innerWidth>=768)setMenu(false);}
 <!-- VOTER LIST SCRIPT -->
 <script>
 let voterData=[];
-fetch('voterlist.json')
+fetch('https://raw.githubusercontent.com/pothabattulavinod/elections/refs/heads/main/voterlist.json')
 .then(res=>res.json())
 .then(data=>{voterData=data; renderTable(voterData);})
 .catch(err=>console.error('Error loading voterlist.json:',err));
