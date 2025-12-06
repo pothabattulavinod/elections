@@ -153,45 +153,55 @@ window.addEventListener('resize',()=>{if(window.innerWidth>=768)setMenu(false);}
 
 <!-- VOTER LIST SCRIPT -->
 <script>
-let voterData=[];
-fetch('https://raw.githubusercontent.com/pothabattulavinod/elections/refs/heads/main/voterlist.json')
-.then(res=>res.json())
-.then(data=>{voterData=data; renderTable(voterData);})
-.catch(err=>console.error('Error loading voterlist.json:',err));
-function renderTable(data){
-const tbody=document.getElementById('voterTableBody'); tbody.innerHTML='';
-data.forEach(voter=>{
-const tr=document.createElement('tr'); tr.classList.add('hover:bg-gray-100');
-tr.innerHTML=`<td class="py-2 px-4">${voter.VoterID||''}</td>
-<td class="py-2 px-4">${voter.Name||''}</td>
-<td class="py-2 px-4">${voter.FathersName||voter.HusbandsName||''}</td>
-<td class="py-2 px-4">${voter.HouseNumber||''}</td>
-<td class="py-2 px-4">${voter.Age||''}</td>
-<td class="py-2 px-4">${voter.Gender||''}</td>`;
-tbody.appendChild(tr);
-});
+let voterData = [];
+fetch('https://raw.githubusercontent.com/pothabattulavinod/elections/main/voterlist.json')
+  .then(res => res.json())
+  .then(data => { voterData = data; renderTable(voterData); })
+  .catch(err => console.error('Error loading voter list:', err));
+
+function renderTable(data) {
+  const tbody = document.getElementById('voterTableBody');
+  tbody.innerHTML = '';
+  data.forEach(voter => {
+    const tr = document.createElement('tr');
+    tr.classList.add('hover:bg-gray-100');
+    tr.innerHTML = `
+      <td class="py-2 px-4">${voter.VoterID || ''}</td>
+      <td class="py-2 px-4">${voter.Name || ''}</td>
+      <td class="py-2 px-4">${voter.FathersName || voter.HusbandsName || ''}</td>
+      <td class="py-2 px-4">${voter.HouseNumber || ''}</td>
+      <td class="py-2 px-4">${voter.Age || ''}</td>
+      <td class="py-2 px-4">${voter.Gender || ''}</td>
+    `;
+    tbody.appendChild(tr);
+  });
 }
-document.getElementById('voterSearch').addEventListener('input',e=>{
-const query=e.target.value.toLowerCase();
-const filtered=voterData.filter(voter=>
-(voter.Name||'').toLowerCase().includes(query)||
-(voter.VoterID||'').toLowerCase().includes(query)||
-(voter.HouseNumber||'').toLowerCase().includes(query)
-);
-renderTable(filtered);
+
+// Search functionality
+document.getElementById('voterSearch').addEventListener('input', e => {
+  const query = e.target.value.toLowerCase();
+  const filtered = voterData.filter(voter =>
+    (voter.Name || '').toLowerCase().includes(query) ||
+    (voter.VoterID || '').toLowerCase().includes(query) ||
+    (voter.HouseNumber || '').toLowerCase().includes(query)
+  );
+  renderTable(filtered);
 });
-document.querySelectorAll('th[data-column]').forEach(header=>{
-let asc=true;
-header.addEventListener('click',()=>{
-const column=header.getAttribute('data-column');
-voterData.sort((a,b)=>{
-let valA=a[column]||'';
-let valB=b[column]||'';
-if(column==='Age'){valA=Number(valA)||0; valB=Number(valB)||0;}
-return asc?(valA>valB?1:-1):(valA<valB?1:-1);
-});
-asc=!asc; renderTable(voterData);
-});
+
+// Sorting functionality
+document.querySelectorAll('th[data-column]').forEach(header => {
+  let asc = true;
+  header.addEventListener('click', () => {
+    const column = header.getAttribute('data-column');
+    voterData.sort((a, b) => {
+      let valA = a[column] || '';
+      let valB = b[column] || '';
+      if(column === 'Age') { valA = Number(valA) || 0; valB = Number(valB) || 0; }
+      return asc ? (valA > valB ? 1 : -1) : (valA < valB ? 1 : -1);
+    });
+    asc = !asc;
+    renderTable(voterData);
+  });
 });
 </script>
 
